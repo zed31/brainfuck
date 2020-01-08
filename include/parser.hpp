@@ -7,9 +7,8 @@
 class Parser {
     public:
         std::vector<std::string> parse(const std::string& line);
-    public:
-        std::string bbcodeval(const char value);
     private:
+        std::string bbcodeval(const char value);
 };
 
 #endif
